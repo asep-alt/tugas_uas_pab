@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/Group_13"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <View
+        android:id="@+id/horizontal_line"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#000000"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <View
+        android:id="@+id/horizontal_line"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#000000"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="174dp" />
+
+    <View
+        android:id="@+id/horizontal_line"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#000000"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="196dp" />
+
+    <TextView
+        android:id="@+id/like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="x"
+        android:textColor="@android:color/black"
+        android:textSize="49dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Narrow your search"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="44dp" />
+
+    <TextView
+        android:id="@+id/like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Advanced filters"
+        android:textColor="@android:color/black"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <TextView
+        android:id="@+id/like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Who you want to date"
+        android:textColor="@android:color/black"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="153dp" />
+
+    <TextView
+        android:id="@+id/like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Men"
+        android:textColor="@android:color/black"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <TextView
+        android:id="@+id/like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=">"
+        android:textColor="@android:color/black"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="385dp"
+        tools:layout_editor_absoluteY="174dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout >

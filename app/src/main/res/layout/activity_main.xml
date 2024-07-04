@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2cb03"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/Grup_1"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="213dp" />
+
+    <TextView
+        android:id="@+id/bumble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bumble"
+        android:textColor="@android:color/black"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="648dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

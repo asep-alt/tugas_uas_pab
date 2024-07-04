@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/Rectangle_27"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/Rectangle_28"
+        tools:layout_editor_absoluteX="361dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/Grou_7"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="151dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        app:srcCompat="@drawable/Group_9"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="659dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/Group_8"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/Group_6"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="578dp" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="For You"
+    android:textColor="@android:color/black"
+    android:textSize="24dp"
+    android:textStyle="bold"
+    tools:layout_editor_absoluteX="16dp"
+    tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:layout_width="289dp"
+        android:layout_height="62dp"
+        android:text="We’re working our magic to learn what you like, so we can recommend great people for you"
+        android:textColor="@android:color/black"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="66dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

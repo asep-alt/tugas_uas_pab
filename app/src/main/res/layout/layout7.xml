@@ -1,0 +1,193 @@
+ <?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="98dp"
+        android:layout_height="112dp"
+        app:srcCompat="@drawable/Group_23"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/Rectangle_58"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="378dp" />
+
+    <ImageView
+        android:id="@+id/imageView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/Group_24"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="568dp" />
+
+    <ImageView
+        android:id="@+id/imageView44"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        app:srcCompat="@drawable/Group_25"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="654dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chats"
+        android:textColor="@android:color/black"
+        android:textSize="36dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your matches"
+        android:textColor="@android:color/black"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="People are waiting to talk to you"
+        android:textColor="@android:color/black"
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="140dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Like them back to start chatting"
+        android:textColor="@android:color/black"
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="156dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="See who's liked you"
+        android:textColor="@android:color/black"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="172dp" />
+
+    <ImageView
+        android:id="@+id/imageView45"
+        android:layout_width="33dp"
+        android:layout_height="39dp"
+        app:srcCompat="@drawable/Group_26"
+        tools:layout_editor_absoluteX="351dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chat recent"
+        android:textColor="@android:color/black"
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="246dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unread"
+        android:textColor="@android:color/black"
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="279dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recent"
+        android:textColor="@android:color/black"
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="310dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nearby"
+        android:textColor="@android:color/black"
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="342dp" />
+
+    <View
+        android:layout_width="409dp"
+        android:layout_height="2dp"
+        android:layout_marginEnd="4dp"
+        android:background="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="305dp" />
+
+    <View
+        android:layout_width="409dp"
+        android:layout_height="3dp"
+        android:layout_marginEnd="4dp"
+        android:background="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="336dp" />
+
+    <View
+        android:layout_width="409dp"
+        android:layout_height="3dp"
+        android:layout_marginEnd="4dp"
+        android:background="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="364dp" />
+
+    <ImageView
+        android:id="@+id/imageView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/Rectangle_59"
+        tools:layout_editor_absoluteX="360dp"
+        tools:layout_editor_absoluteY="315dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connection start here"
+        android:textColor="@android:color/black"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="473dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="When you both swipe right on each other,"
+        android:textColor="@android:color/black"
+        android:textSize="14dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="517dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="you'll match. Here's where you can chat"
+        android:textColor="@android:color/black"
+        android:textSize="14dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="536dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

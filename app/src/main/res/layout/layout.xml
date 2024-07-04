@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Like You"
+        android:textColor="@android:color/black"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upgrade to Premium to check them out and match instantly"
+        android:textColor="@android:color/black"
+        android:textSize="14dp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Liked You"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="124dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/Grup_2"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="190dp"
+        android:layout_height="228dp"
+        app:srcCompat="@drawable/Grup_3"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="40dp"
+        android:layout_height="28dp"
+        app:srcCompat="@drawable/Grup_4"
+        tools:layout_editor_absoluteX="346dp"
+        tools:layout_editor_absoluteY="22dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        app:srcCompat="@drawable/Group_5"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="665dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
